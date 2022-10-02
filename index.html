@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta
+      name="viewport"
+      content="wdata-noteth=device-wdata-noteth, initial-scale=1.0"
+    /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Patrick+Hand&family=Sacramento&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Piano</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="main-title">
+        Piano <img src="grand-piano.png" alt="piano" class="piano-img" /> World
+      </h1>
+    </div>
+
+    <div class="piano-container">
+      <div data-note="C" class="key white C"></div>
+      <div data-note="Cs" class="key sharp C#"></div>
+      <div data-note="D" class="key white D"></div>
+      <div data-note="Ds" class="key sharp D#"></div>
+      <div data-note="E" class="key white E"></div>
+      <div data-note="F" class="key white F"></div>
+      <div data-note="Fs" class="key sharp F#"></div>
+      <div data-note="G" class="key white G"></div>
+      <div data-note="Gs" class="key sharp G#"></div>
+      <div data-note="A" class="key white A"></div>
+      <div data-note="As" class="key sharp A#"></div>
+      <div data-note="B" class="key white B"></div>
+      <div data-note="C5" class="key white C5"></div>
+    </div>
+
+    <audio src="sounds/C.mp3" id="C"></audio>
+    <audio src="sounds/Cs.mp3" id="Cs"></audio>
+    <audio src="sounds/D.mp3" id="D"></audio>
+    <audio src="sounds/Ds.mp3" id="Ds"></audio>
+    <audio src="sounds/E.mp3" id="E"></audio>
+    <audio src="sounds/F.mp3" id="F"></audio>
+    <audio src="sounds/Fs.mp3" id="Fs"></audio>
+    <audio src="sounds/G.mp3" id="G"></audio>
+    <audio src="sounds/Gs.mp3" id="Gs"></audio>
+    <audio src="sounds/A.mp3" id="A"></audio>
+    <audio src="sounds/Bb.mp3" id="As"></audio>
+    <audio src="sounds/B.mp3" id="B"></audio>
+    <audio src="sounds/C5.mp3" id="C5"></audio>
+
+    <div style="margin-top: 500px"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

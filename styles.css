@@ -1,0 +1,58 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+body {
+  background-color: #a7d2cb;
+  /* display: flex; */
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  display: block;
+  margin-top: 2%;
+  padding: 0;
+  color: aliceblue;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+.piano-img {
+  height: 11%;
+  width: 9%;
+}
+
+.piano-container {
+  display: flex;
+  justify-content: center;
+}
+
+.white {
+  align-items: center;
+  height: 350px;
+  width: 80px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.sharp {
+  height: 200px;
+  width: 40px;
+  z-index: 1;
+  background-color: black;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.white.active {
+  background-color: aqua;
+}
+
+.sharp.active {
+  background-color: rgb(255, 224, 46);
+}
